@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282D0C231A22E50300A8E7CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D0C221A22E50300A8E7CB /* AppDelegate.swift */; };
+		282D0C261A22E50300A8E7CB /* housezap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 282D0C241A22E50300A8E7CB /* housezap.xcdatamodeld */; };
+		282D0C281A22E50300A8E7CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D0C271A22E50300A8E7CB /* ViewController.swift */; };
+		282D0C2B1A22E50300A8E7CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282D0C291A22E50300A8E7CB /* Main.storyboard */; };
+		282D0C2D1A22E50300A8E7CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282D0C2C1A22E50300A8E7CB /* Images.xcassets */; };
+		282D0C301A22E50300A8E7CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282D0C2E1A22E50300A8E7CB /* LaunchScreen.xib */; };
+		282D0C3C1A22E50300A8E7CB /* housezapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D0C3B1A22E50300A8E7CB /* housezapTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		282D0C361A22E50300A8E7CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 282D0C151A22E50300A8E7CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282D0C1C1A22E50300A8E7CB;
+			remoteInfo = housezap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		282D0C1D1A22E50300A8E7CB /* housezap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = housezap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		282D0C211A22E50300A8E7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282D0C221A22E50300A8E7CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		282D0C251A22E50300A8E7CB /* housezap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = housezap.xcdatamodel; sourceTree = "<group>"; };
+		282D0C271A22E50300A8E7CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		282D0C2A1A22E50300A8E7CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		282D0C2C1A22E50300A8E7CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		282D0C2F1A22E50300A8E7CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		282D0C351A22E50300A8E7CB /* housezapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = housezapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		282D0C3A1A22E50300A8E7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282D0C3B1A22E50300A8E7CB /* housezapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = housezapTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		282D0C1A1A22E50300A8E7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282D0C321A22E50300A8E7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282D0C141A22E50300A8E7CB = {
+			isa = PBXGroup;
+			children = (
+				282D0C1F1A22E50300A8E7CB /* housezap */,
+				282D0C381A22E50300A8E7CB /* housezapTests */,
+				282D0C1E1A22E50300A8E7CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		282D0C1E1A22E50300A8E7CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				282D0C1D1A22E50300A8E7CB /* housezap.app */,
+				282D0C351A22E50300A8E7CB /* housezapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		282D0C1F1A22E50300A8E7CB /* housezap */ = {
+			isa = PBXGroup;
+			children = (
+				282D0C221A22E50300A8E7CB /* AppDelegate.swift */,
+				282D0C271A22E50300A8E7CB /* ViewController.swift */,
+				282D0C291A22E50300A8E7CB /* Main.storyboard */,
+				282D0C2C1A22E50300A8E7CB /* Images.xcassets */,
+				282D0C2E1A22E50300A8E7CB /* LaunchScreen.xib */,
+				282D0C241A22E50300A8E7CB /* housezap.xcdatamodeld */,
+				282D0C201A22E50300A8E7CB /* Supporting Files */,
+			);
+			path = housezap;
+			sourceTree = "<group>";
+		};
+		282D0C201A22E50300A8E7CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282D0C211A22E50300A8E7CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		282D0C381A22E50300A8E7CB /* housezapTests */ = {
+			isa = PBXGroup;
+			children = (
+				282D0C3B1A22E50300A8E7CB /* housezapTests.swift */,
+				282D0C391A22E50300A8E7CB /* Supporting Files */,
+			);
+			path = housezapTests;
+			sourceTree = "<group>";
+		};
+		282D0C391A22E50300A8E7CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282D0C3A1A22E50300A8E7CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		282D0C1C1A22E50300A8E7CB /* housezap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282D0C3F1A22E50300A8E7CB /* Build configuration list for PBXNativeTarget "housezap" */;
+			buildPhases = (
+				282D0C191A22E50300A8E7CB /* Sources */,
+				282D0C1A1A22E50300A8E7CB /* Frameworks */,
+				282D0C1B1A22E50300A8E7CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = housezap;
+			productName = housezap;
+			productReference = 282D0C1D1A22E50300A8E7CB /* housezap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		282D0C341A22E50300A8E7CB /* housezapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282D0C421A22E50300A8E7CB /* Build configuration list for PBXNativeTarget "housezapTests" */;
+			buildPhases = (
+				282D0C311A22E50300A8E7CB /* Sources */,
+				282D0C321A22E50300A8E7CB /* Frameworks */,
+				282D0C331A22E50300A8E7CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282D0C371A22E50300A8E7CB /* PBXTargetDependency */,
+			);
+			name = housezapTests;
+			productName = housezapTests;
+			productReference = 282D0C351A22E50300A8E7CB /* housezapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		282D0C151A22E50300A8E7CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Common Sense Labs";
+				TargetAttributes = {
+					282D0C1C1A22E50300A8E7CB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					282D0C341A22E50300A8E7CB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 282D0C1C1A22E50300A8E7CB;
+					};
+				};
+			};
+			buildConfigurationList = 282D0C181A22E50300A8E7CB /* Build configuration list for PBXProject "housezap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 282D0C141A22E50300A8E7CB;
+			productRefGroup = 282D0C1E1A22E50300A8E7CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				282D0C1C1A22E50300A8E7CB /* housezap */,
+				282D0C341A22E50300A8E7CB /* housezapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		282D0C1B1A22E50300A8E7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282D0C2B1A22E50300A8E7CB /* Main.storyboard in Resources */,
+				282D0C301A22E50300A8E7CB /* LaunchScreen.xib in Resources */,
+				282D0C2D1A22E50300A8E7CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282D0C331A22E50300A8E7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		282D0C191A22E50300A8E7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282D0C281A22E50300A8E7CB /* ViewController.swift in Sources */,
+				282D0C261A22E50300A8E7CB /* housezap.xcdatamodeld in Sources */,
+				282D0C231A22E50300A8E7CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282D0C311A22E50300A8E7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282D0C3C1A22E50300A8E7CB /* housezapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		282D0C371A22E50300A8E7CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 282D0C1C1A22E50300A8E7CB /* housezap */;
+			targetProxy = 282D0C361A22E50300A8E7CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		282D0C291A22E50300A8E7CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282D0C2A1A22E50300A8E7CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		282D0C2E1A22E50300A8E7CB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282D0C2F1A22E50300A8E7CB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		282D0C3D1A22E50300A8E7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		282D0C3E1A22E50300A8E7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		282D0C401A22E50300A8E7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = housezap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		282D0C411A22E50300A8E7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = housezap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		282D0C431A22E50300A8E7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = housezapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/housezap.app/housezap";
+			};
+			name = Debug;
+		};
+		282D0C441A22E50300A8E7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = housezapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/housezap.app/housezap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		282D0C181A22E50300A8E7CB /* Build configuration list for PBXProject "housezap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282D0C3D1A22E50300A8E7CB /* Debug */,
+				282D0C3E1A22E50300A8E7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282D0C3F1A22E50300A8E7CB /* Build configuration list for PBXNativeTarget "housezap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282D0C401A22E50300A8E7CB /* Debug */,
+				282D0C411A22E50300A8E7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		282D0C421A22E50300A8E7CB /* Build configuration list for PBXNativeTarget "housezapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282D0C431A22E50300A8E7CB /* Debug */,
+				282D0C441A22E50300A8E7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		282D0C241A22E50300A8E7CB /* housezap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				282D0C251A22E50300A8E7CB /* housezap.xcdatamodel */,
+			);
+			currentVersion = 282D0C251A22E50300A8E7CB /* housezap.xcdatamodel */;
+			path = housezap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 282D0C151A22E50300A8E7CB /* Project object */;
+}
